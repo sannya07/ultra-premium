@@ -1,0 +1,115 @@
+.MainTwo {
+    background-color: black;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+}
+
+.MainLogoDiv {
+    width: 70%;
+    padding: 20px 30px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ultra,
+.premium {
+    color: #1a5984;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.premium {
+    color: #026db8;
+
+}
+.psd{
+    text-align: center;
+    font-size: 23px;
+    line-height: 9px;
+    font-family: sans-serif;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+}
+a{
+    text-decoration: none;
+
+}
+.Nav-links{
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.textVero{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.Footer-Main{
+    width: 25%;
+}
+.baricon{
+    display: none;
+}
+
+@media screen and (max-width: 1080px){
+    .links{
+        display: none;
+    }
+    .baricon{
+        font-size: 20px;
+        display: block;
+    }
+    .ultra,
+    .premium{
+        font-size: 30px;
+    }
+    .MainLogoDiv{
+       width: 100%;
+    }
+    .heroText {
+        font-size: 34px;
+        width: 75%;
+        font-weight: 600;
+        font-family: sans-serif;
+    }
+    .psdFree{
+        font-size: 35px;
+    }
+    .loremText{
+        font-size: 20px;
+    width: 90%;
+    margin-top: 20px;
+    }
+    .bluebox{
+        flex-direction: column;
+    }
+    .MainText {
+        margin-top: 50px;
+        width: 90%;
+    }
+    .emailBox {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .emailarea{
+        padding: 18px 10px;
+        margin: 20px;
+    }
+    .join {
+        text-align: center;
+        padding: 10px 40px;
+        color: #000;
+        background-color: #fff;
+        border-radius: 6px;
+        font-size: 22px;
+        max-height: 30px;
+    }
+}

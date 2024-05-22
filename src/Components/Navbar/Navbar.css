@@ -1,0 +1,35 @@
+.Main{
+    background:#006cb7;
+     display:flex;
+     justify-content: space-around;
+     color: white;
+     padding: 20px;
+}
+
+.Nav
+{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.Nav2
+{
+    display: flex;
+    justify-content: space-around;
+    width: 15%;
+}
+
+
+
+@media screen and (max-width: 1080px){
+    .Nav2{
+    display: none;
+    }
+    .no{
+        display: none;
+    }
+    .day{
+        display: none;
+    }
+}

@@ -1,0 +1,118 @@
+.HeroText{
+    font-size: 50px;
+    font-weight: 700;
+}
+.WhyusMain{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.whyusText{
+    font-size: 25px;
+    width: 60%;
+    text-align: center;
+}
+.threeBoxes{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+
+.blueCircle{
+    padding: 10px;
+    background-color: #006cb7;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.Box{
+    margin-top: 30px;
+    height: auto;
+    width: 26%;
+    border-right: 2px solid grey ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+  
+}
+
+.text{
+    font-size: 30px;
+    text-align: left;
+    font-weight: 600;
+
+}
+
+.twoBoxes{
+    margin-top: 100px;
+}
+.firstBox{
+
+    background-color: #f1f1f1;
+    width: 30%;
+    padding: 40px;
+}
+.point{
+    font-size: 17px;
+    text-align: left;
+    margin-top: 20px;
+    display: flex;
+}
+.icon{
+    font-size: 40px;
+    margin-right: 10px;
+    font-weight: 900;
+    color: #bcbcbc;
+}
+.secondbox{
+    color: #bcbcbc;
+    background-color: #bcbcbc;
+}
+
+.twoBoxes{
+    display: flex;
+    justify-content: center;
+    
+}
+
+@media screen and (max-width: 1080px){
+    .whyusText {
+        font-size: 17px;
+        width: 80%;
+    }
+    .threeBoxes{
+        flex-direction: column;
+    }
+    .Box{
+        width: 95%;
+    }
+    .secondbox{
+        display: none;
+    }
+    .firstBox
+    {
+        width: 95%;
+    }
+    .WhyusMain {
+        padding-bottom: 0px;
+    }
+    .threeBlueBoxes{
+        flex-direction: column;
+    }
+    .mainbluebox {
+        width: 70%;
+    }
+}

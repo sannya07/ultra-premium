@@ -1,0 +1,32 @@
+.MainThree{
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 150px 0px 100px 0px;
+}
+.mainContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+.heroText{
+    font-size: 50px;
+    width: 40%;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.psdFree{
+    margin-top: 10px;
+    font-size: 50px;
+    font-weight: 300;
+}
+.loremText{
+    font-size: 20px;
+    width: 60%;
+    margin-top: 20px;
+}
